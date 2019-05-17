@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+
+header {
+    background-color: azure;
+    padding: 20px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+.main-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.m-auto {
+    text-align: center;
+}
+
+
