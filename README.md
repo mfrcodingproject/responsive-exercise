@@ -9,7 +9,7 @@ As you can see in the page, we have a main article (The first one). A good way t
 
 If you inspect the code, you will see that the font-size of the h2 tag is 2em. but if you want to know how may pixels are 2em you will have to click inside the chrome inspector in "computed". The result there is 32 pixels. 2em = 2 x 16.
 
-Now, we want to change the font size of the title to 48, and the font size to 24 but we are not going to do it over the <h2> or the <p>. We will change the font of the parent since we are using em as unit.
+Now, we want to change the font size of the title to 48, and the font size to 24 but we are not going to do it over the h2 or the p tag. We will change the font of the parent since we are using em as unit.
 
 You will find in the css the selector of the parent, you just need to change the font size (try to use relative units) to get the result.
 
